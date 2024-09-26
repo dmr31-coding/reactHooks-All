@@ -10,6 +10,7 @@ import UseRefHook from './AllHooks/UseRefHook'
 import UseRefOne from './AllHooks/UseRefOne'
 import UseMemoHook from './AllHooks/UseMemoHook'
 import UsememoOne from './AllHooks/UsememoOne'
+import UseCallbackHook from './AllHooks/UseCallbackHook'
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
       <UseMemoHook />
 
       <UsememoOne />
+
+      <UseCallbackHook />
     </>
   )
 }
