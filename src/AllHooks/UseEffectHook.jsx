@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 import { useState, useEffect } from 'react';
 
 const UseEffectHook = () => {
@@ -11,7 +11,7 @@ const UseEffectHook = () => {
         setTimeout(() => {
             setCount(count => count + 1);
         }, 2000)
-    })
+    }, [count])
 
   return (
     <>

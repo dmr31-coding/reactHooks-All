@@ -6,6 +6,11 @@ import UseStateHook from './AllHooks/UseStateHook'
 import UsestateOne from './AllHooks/UsestateOne'
 import UsestateTwo from './AllHooks/UsestateTwo'
 import UseEffectHook from './AllHooks/UseEffectHook'
+import UseRefHook from './AllHooks/UseRefHook'
+import UseRefOne from './AllHooks/UseRefOne'
+import UseMemoHook from './AllHooks/UseMemoHook'
+import UsememoOne from './AllHooks/UsememoOne'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +23,15 @@ function App() {
 
       <UsestateTwo />
 
-      {/* <UseEffectHook /> */}
+      <UseEffectHook />
+
+      <UseRefHook />
+
+      <UseRefOne />
+
+      <UseMemoHook />
+
+      <UsememoOne />
     </>
   )
 }
