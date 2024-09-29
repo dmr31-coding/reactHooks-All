@@ -13,7 +13,9 @@ import UsememoOne from './AllHooks/useMemo/UsememoOne'
 import UseCallbackHook from './AllHooks/useCallback/UseCallbackHook'
 import Profile from './AllHooks/useContext/Profile'
 import Footer from './AllHooks/useContext/Footer'
-import UseeReducerHook from './useReducer/UseeReducerHook'
+import UseLayoutEffectHook from './useLayoutEffect/UseLayoutEffectHook'
+import UseeReducerHook from './AllHooks/useReducer/UseeReducerHook'
+import CustomHook from './customHook/CustomHook'
 
 
 function App() {
@@ -44,6 +46,10 @@ function App() {
       <Footer />
 
       <UseeReducerHook />
+
+      <UseLayoutEffectHook />
+
+      <CustomHook />
     </>
   )
 }
